@@ -12,6 +12,10 @@ yarn dev
 pnpm dev
 # or
 bun dev
+
+#Si pas axios
+npm install axios
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
