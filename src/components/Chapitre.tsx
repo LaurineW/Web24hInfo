@@ -1,3 +1,4 @@
+"use client";
 import {Chapitre} from "@/types/Chapitre";
 import React from "react";
 
