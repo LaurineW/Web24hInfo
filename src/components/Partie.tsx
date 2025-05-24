@@ -1,3 +1,4 @@
+"use client";
 import {Partie} from "@/types/Partie";
 import React from "react";
 
