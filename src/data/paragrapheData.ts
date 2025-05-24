@@ -53,6 +53,84 @@ export const paragraphes : Paragraphe[] = [
             ],
         partie : "Historique"
     },
+    {
+        nom : "La Fête des Lumières",
+        texte : "Événement emblématique chaque décembre.\n" +
+            "Illumine la ville pendant 4 jours avec des installations artistiques monumentales.\n" +
+            "Attire plusieurs millions de visiteurs chaque année.\n" +
+            "Fait de Lyon une capitale mondiale de la lumière et du mapping vidéo.",
+        images : [
+                "image3.png"
+            ],
+        partie : "Actuel"
+    },
+    {
+        nom : "Le Vieux Lyon classé à l’UNESCO",
+        texte : "Inscrit au patrimoine mondial de l'UNESCO depuis 1998.\n" +
+            "Un des plus grands quartiers Renaissance d’Europe.\n" +
+            "Travaux de conservation et valorisation reconnus à l'international.\n" +
+            "de la colline de Fourvière, de la Presqu'île et des pentes de la Croix-Rousse sont inscrits sur la liste du patrimoine mondial de l'UNESCO.",
+        images : [
+                "image3.png"
+            ],
+        partie : "Actuel"
+    },
+    {
+        nom : "Berceau du cinéma",
+        texte : "Les frères Lumière ont inventé le cinéma à Lyon (avec le cinématographe).\n" +
+            "Le Musée Lumière et l'Institut Lumière célèbrent cet héritage.",
+        images : [
+                "image3.png"
+            ],
+        partie : "Actuel"
+    },
+    {
+        nom : "Capitale de la gastronomie",
+        texte : "Ville natale de Paul Bocuse, chef emblématique.\n" +
+            "Présence de nombreux bouchons lyonnais, restaurants étoilés, et le SIRHA (salon international de la restauration).\n" +
+            "Accueil régulier du Bocuse d'Or, prestigieux concours culinaire.",
+        images : [
+                "image3.png"
+            ],
+        partie : "Actuel"
+    },
+    {
+        nom : "Hub en santé et biotechnologies",
+        texte : "Lyon est un pôle majeur de l’industrie pharmaceutique (Sanofi, bioMérieux…).\n" +
+            "Présence d’un cluster mondial en infectiologie et biotechnologies.",
+        images : [
+                "image3.png"
+            ],
+        partie : "Actuel"
+    },
+    {
+        nom : "Pôle de transport stratégique",
+        texte : "Nœud ferroviaire avec la gare de la Part-Dieu, une des plus fréquentées d'Europe.\n" +
+            "Connexions rapides en TGV avec Paris, Marseille, Genève, Turin…",
+        images : [
+                "image3.png"
+            ],
+        partie : "Actuel"
+    },
+    {
+        nom : "Ville étudiante et innovante",
+        texte : "Accueille plus de 150 000 étudiants.\n" +
+            "Universités reconnues (Lyon 1, 2, 3, INSA, EM Lyon…).\n" +
+            "Classements fréquents parmi les meilleures villes étudiantes de France.",
+        images : [
+                "image3.png"
+            ],
+        partie : "Actuel"
+    },
+    {
+        nom : "Événements sportifs internationaux",
+        texte : "Accueil de matchs de la Coupe du Monde (1998), de l’Euro (2016), et bientôt des JO (2024).\n" +
+            "Stade Groupama Stadium (OL) utilisé pour de grands événements sportifs et concerts",
+        images : [
+                "image3.png"
+            ],
+        partie : "Actuel"
+    },
 ]
 
 export function getParagraphes() {
