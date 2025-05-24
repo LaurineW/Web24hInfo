@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes irregular-blink {
+  0%, 100% {
+    opacity: 0.2;
+    color: #ffbc48;
+    text-shadow: 0 0 10px #f59e0b; /* Ajoute un effet de lueur */
+  }
+  20% {
+    opacity: 1;
+    color: #ffbc48;
+    text-shadow: 0 0 10px #f59e0b; /* Ajoute un effet de lueur */
+  }
+  40% {
+    opacity: 0.5;
+    color: #ffbc48;
+    text-shadow: 0 0 10px #f59e0b; /* Ajoute un effet de lueur */
+  }
+  60% {
+    opacity: 1;
+    color: #ffbc48;
+    text-shadow: 0 0 10px #f59e0b; /* Ajoute un effet de lueur */
+  }
+  80% {
+    opacity: 0.3;
+    color: #ffbc48;
+    text-shadow: 0 0 10px #f59e0b; /* Ajoute un effet de lueur */
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.blink {
+  animation: irregular-blink 3s infinite;
+}
+
+.lit {
+  color: #ffbc48;
+  text-shadow: 0 0 10px #f59e0b;
+  animation: none; /* Arrête l'animation de clignotement */
+}
+
+.slide-in {
+  animation: slideIn 1s forwards;
+}
+
+.fade-in {
+  animation: fadeIn 2s forwards;
+}
+
+.clickable-image {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  pointer-events: none;
+}
+
+.clickable-image.fade-in {
+  opacity: 1;
+  pointer-events: auto;
+}
