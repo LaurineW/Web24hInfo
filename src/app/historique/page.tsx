@@ -1,29 +1,37 @@
 import React, { JSX } from "react";
 import { Timeline } from "@/components/ui/timeline";
+import {Paragraphe} from "@/components/Paragraphe";
+import {getParagrapheParNom} from "@/data/paragrapheData";
 
 const timelineData = [
     {
-        title: "2021",
+        title: "-43 av. J.-C.",
         content: (
-            <p className="text-neutral-700 dark:text-neutral-300">
-                Début du projet Aceternity, recherche et prototypes.
-            </p>
+            <Paragraphe {...getParagrapheParNom("Capitale des Gaules (Lugdunum)")} />
         ),
     },
     {
-        title: "2022",
+        title: "IIe siècle",
         content: (
-            <p className="text-neutral-700 dark:text-neutral-300">
-                Développement des fonctionnalités principales.
-            </p>
+            <Paragraphe {...getParagrapheParNom("Lieu clé du christianisme en Gaule")} />
         ),
     },
     {
-        title: "2023",
+        title: "XV-XIXe siècles",
         content: (
-            <p className="text-neutral-700 dark:text-neutral-300">
-                Lancement de la version bêta et premiers retours utilisateurs.
-            </p>
+            <Paragraphe {...getParagrapheParNom("Capitale mondiale de la soie (XV–XIXe siècles)")} />
+        ),
+    },
+    {
+        title: "XVIe siècle",
+        content: (
+            <Paragraphe {...getParagrapheParNom("Ville de l’imprimerie à la Renaissance")} />
+        ),
+    },
+    {
+        title: "1939-1945",
+        content: (
+            <Paragraphe {...getParagrapheParNom("Haut lieu de Résistance pendant la Seconde Guerre mondiale")} />
         ),
     },
 ];
