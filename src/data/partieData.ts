@@ -9,7 +9,7 @@ export const parties : Partie[] = [
             "XIXᵉ siècle. Elle est construite à peu près sur l'emplacement\n" +
             "de l'ancien forum de Trajan, Forum vetus.",
         images : [
-                "image2.jpeg"
+                "basilique.jpg"
             ],
         chapitre : "Visite"
     },
@@ -21,7 +21,7 @@ export const parties : Partie[] = [
             "colline de Fourvière, en dessous de son sommet, ce qui le\n" +
             "plaçait près du centre de la colonie romaine.",
         images : [
-                "image2.jpeg"
+                "theatre.jpg"
             ],
         chapitre : "Visite"
     },
@@ -33,7 +33,7 @@ export const parties : Partie[] = [
             "cathédrale et de primatiale : l'archevêque de Lyon a le titre\n" +
             "de primat des Gaules.",
         images : [
-                "image2.jpeg"
+                "cathedrale.jpg"
             ],
         chapitre : "Visite"
     },
@@ -45,7 +45,7 @@ export const parties : Partie[] = [
             "de la Presqu'île entre le Rhône et la Saône au pied de la\n" +
             "colline de la Croix-Rousse.",
         images : [
-                "image2.jpeg"
+                "terreaux.jpg"
             ],
         chapitre : "Visite"
     },
@@ -58,7 +58,7 @@ export const parties : Partie[] = [
             "premier hôpital lyonnais. Son rôle hospitalier lui a été\n" +
             "dévolu par un autre établissement, créé en 542..",
         images : [
-                "image2.jpeg"
+                "hotel.jpg"
             ],
         chapitre : "Visite"
     },
@@ -70,7 +70,7 @@ export const parties : Partie[] = [
             "place avec ses 62 000 m2, cinquième plus grande place de\n" +
             "France, elle est la plus grande place piétonnière d'Europe.",
         images : [
-                "image2.jpeg"
+                "bellecour.jpg"
             ],
         chapitre : "Visite"
     },
@@ -81,7 +81,7 @@ export const parties : Partie[] = [
             "d'anthropologie, des sociétés et des civilisations situé à Lyon,\n" +
             "dans la région Auvergne-Rhône-Alpes en France.",
         images : [
-                "image2.jpeg"
+                "confluences.jpg"
             ],
         chapitre : "Visite"
     },
@@ -93,7 +93,7 @@ export const parties : Partie[] = [
             "Saint-Pierre-les-Nonnains, plus connu sous le nom de\n" +
             "palais Saint-Pierre.",
         images : [
-                "image2.jpeg"
+                "arts.jpg"
             ],
         chapitre : "Visite"
     },
@@ -105,7 +105,7 @@ export const parties : Partie[] = [
             "place des Célestins dans le quartier de Bellecour,\n" +
             "du 2ᵉ arrondissement de Lyon.",
         images : [
-                "image2.jpeg"
+                "celestins.jpg"
             ],
         chapitre : "Visite"
     },
@@ -116,7 +116,7 @@ export const parties : Partie[] = [
             "modernes, qui accueille des opéras, des spectacles\n" +
             "de danse et des concerts.",
         images : [
-                "image2.jpeg"
+                "opera.jpg"
             ],
         chapitre : "Visite"
     },
