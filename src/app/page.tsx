@@ -38,9 +38,9 @@ const Home: NextPage = () => {
   }, []);
 
   const cards = [
-    { title: "Histoire de Lyon", src: "/clickable-image1.jpg" },
-    { title: "Valeurs de Lyon", src: "/clickable-image2.jpg" },
-    { title: "Lieux à visiter", src: "/clickable-image3.jpg" },
+    { title: "Histoire de Lyon", src: "/clickable-image1.jpg", href: "/history" },
+    { title: "Valeurs de Lyon", src: "/clickable-image2.jpg", href: "/valor" },
+    { title: "Lieux à visiter", src: "/clickable-image3.jpg", href: "/to-visit" },
   ];
 
   return (

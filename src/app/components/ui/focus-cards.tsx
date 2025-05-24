@@ -7,6 +7,7 @@ type CardProps = {
     card: {
         title: string;
         src: string;
+        href: string;
     };
     index: number;
     hovered: number | null;
@@ -22,6 +23,7 @@ export const Card = React.memo(({ card, index, hovered, setHovered }: CardProps)
             hovered !== null && hovered !== index && "blur-sm scale-95",
         )}
     >
+        <a href={card.href}>
         <img
             src={card.src}
             alt={card.title}
@@ -35,13 +37,14 @@ export const Card = React.memo(({ card, index, hovered, setHovered }: CardProps)
         >
             {card.title}
         </div>
+        </a>
     </div>
 ));
 
 Card.displayName = "Card";
 
 type FocusCardsProps = {
-    cards: { title: string; src: string }[];
+    cards: { title: string; src: string, href: string}[];
 };
 
 export function FocusCards({ cards }: FocusCardsProps) {
