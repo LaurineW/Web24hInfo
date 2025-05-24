@@ -61,7 +61,7 @@ export default function HistoriquePage(): JSX.Element {
             </div>
 
             <div className="px-4 md:px-10 max-w-7xl mx-auto mt-10">
-                <Timeline data={timelineData} />
+                <Timeline data={timelineData } />
             </div>
         </main>
     );
