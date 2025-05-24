@@ -60,7 +60,7 @@ export const paragraphes : Paragraphe[] = [
             "Attire plusieurs millions de visiteurs chaque année.\n" +
             "Fait de Lyon une capitale mondiale de la lumière et du mapping vidéo.",
         images : [
-                "image3.png"
+                "Actual/actual1.jpg"
             ],
         partie : "Actuel"
     },
@@ -71,7 +71,7 @@ export const paragraphes : Paragraphe[] = [
             "Travaux de conservation et valorisation reconnus à l'international.\n" +
             "de la colline de Fourvière, de la Presqu'île et des pentes de la Croix-Rousse sont inscrits sur la liste du patrimoine mondial de l'UNESCO.",
         images : [
-                "image3.png"
+                "Actual/actual2.jpg"
             ],
         partie : "Actuel"
     },
@@ -80,7 +80,7 @@ export const paragraphes : Paragraphe[] = [
         texte : "Les frères Lumière ont inventé le cinéma à Lyon (avec le cinématographe).\n" +
             "Le Musée Lumière et l'Institut Lumière célèbrent cet héritage.",
         images : [
-                "image3.png"
+                "Actual/actual3.jpg"
             ],
         partie : "Actuel"
     },
@@ -90,7 +90,7 @@ export const paragraphes : Paragraphe[] = [
             "Présence de nombreux bouchons lyonnais, restaurants étoilés, et le SIRHA (salon international de la restauration).\n" +
             "Accueil régulier du Bocuse d'Or, prestigieux concours culinaire.",
         images : [
-                "image3.png"
+                "Actual/actual4.jpg"
             ],
         partie : "Actuel"
     },
@@ -99,7 +99,7 @@ export const paragraphes : Paragraphe[] = [
         texte : "Lyon est un pôle majeur de l’industrie pharmaceutique (Sanofi, bioMérieux…).\n" +
             "Présence d’un cluster mondial en infectiologie et biotechnologies.",
         images : [
-                "image3.png"
+                "Actual/actual5.jpg"
             ],
         partie : "Actuel"
     },
@@ -108,7 +108,7 @@ export const paragraphes : Paragraphe[] = [
         texte : "Nœud ferroviaire avec la gare de la Part-Dieu, une des plus fréquentées d'Europe.\n" +
             "Connexions rapides en TGV avec Paris, Marseille, Genève, Turin…",
         images : [
-                "image3.png"
+                "Actual/actual6.jpg"
             ],
         partie : "Actuel"
     },
@@ -118,7 +118,7 @@ export const paragraphes : Paragraphe[] = [
             "Universités reconnues (Lyon 1, 2, 3, INSA, EM Lyon…).\n" +
             "Classements fréquents parmi les meilleures villes étudiantes de France.",
         images : [
-                "image3.png"
+                "Actual/actual7.jpg"
             ],
         partie : "Actuel"
     },
@@ -127,7 +127,7 @@ export const paragraphes : Paragraphe[] = [
         texte : "Accueil de matchs de la Coupe du Monde (1998), de l’Euro (2016), et bientôt des JO (2024).\n" +
             "Stade Groupama Stadium (OL) utilisé pour de grands événements sportifs et concerts",
         images : [
-                "image3.png"
+                "Actual/actual8.jpg"
             ],
         partie : "Actuel"
     },
