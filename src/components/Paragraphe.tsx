@@ -9,7 +9,7 @@ export function Paragraphe(paragraphe : Paragraphe) : React.ReactElement {
                 <p>{paragraphe.texte}</p>
             </div>
             <div>
-                {paragraphe.images.map(img => <img src={img} key={img} />)}
+                {paragraphe.images.map(img => <img src={img} key={img} width={500} height={300} />)}
             </div>
         </>
 }

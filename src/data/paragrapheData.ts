@@ -9,7 +9,7 @@ export const paragraphes : Paragraphe[] = [
             "Devient capitale des Gaules et centre stratégique de l’Empire romain.\n" +
             "Vestiges encore visibles : théâtres antiques de Fourvière, odéon, aqueducs, etc.",
         images : [
-                "image3.png"
+                "history/history1.jpg"
             ],
         partie : "Historique"
     },
@@ -19,7 +19,7 @@ export const paragraphes : Paragraphe[] = [
             "Lyon devient un centre religieux majeur avec un archevêché puissant.\n" +
             "La primatiale Saint-Jean en est le symbole.",
         images : [
-                "image3.png"
+                "history/history2.jpg"
             ],
         partie : "Historique"
     },
@@ -29,7 +29,7 @@ export const paragraphes : Paragraphe[] = [
             "Au XIXe siècle, les canuts, ouvriers tisserands de la Croix-Rousse, sont à l’origine d’importantes révoltes ouvrières (1831, 1834).\n" +
             "Influence majeure sur l’essor industriel et social de la ville.",
         images : [
-                "image3.png"
+                "history/history3.jpg"
             ],
         partie : "Historique"
     },
@@ -38,7 +38,7 @@ export const paragraphes : Paragraphe[] = [
         texte : "Au XVIe siècle, Lyon est un des plus grands centres d’imprimerie et d’édition d’Europe.\n" +
             "Publications religieuses, scientifiques, philosophiques… une effervescence intellectuelle unique.",
         images : [
-                "image3.png"
+                "history/history4.jpg"
             ],
         partie : "Historique"
     },
@@ -49,7 +49,7 @@ export const paragraphes : Paragraphe[] = [
             "La ville est décorée de la Légion d’honneur et de la Croix de la Libération.\n" +
             "Le Centre d’Histoire de la Résistance et de la Déportation en garde la mémoire.",
         images : [
-                "image3.png"
+                "history/history5.jpg"
             ],
         partie : "Historique"
     },
